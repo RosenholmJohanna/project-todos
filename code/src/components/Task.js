@@ -7,6 +7,7 @@
 /* eslint-disable indent */
 /* eslint-disable no-trailing-spaces */
 /* eslint-disable linebreak-style */
+/* eslint-disable operator-linebreak */
 import React from 'react';
 import styled from 'styled-components';
 import { useDispatch } from 'react-redux';

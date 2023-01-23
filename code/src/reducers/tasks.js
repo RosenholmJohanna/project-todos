@@ -8,6 +8,7 @@
 /* eslint-disable no-shadow */
 /* eslint-disable max-len */
 /* eslint-disable indent */
+/* eslint-disable operator-linebreak */
 import { createSlice } from '@reduxjs/toolkit' 
 import { v4 as uuidv4 } from 'uuid';
 

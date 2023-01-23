@@ -2,6 +2,9 @@
 /* eslint-disable no-multiple-empty-lines */
 /* eslint-disable object-curly-spacing */
 /* eslint-disable indent */
+/* eslint-disable operator-linebreak */
+/* eslint-disable arrow-parens */
+/* eslint-react/jsx-no-useless-fragment */
 import React, { useState } from 'react'
 import { useDispatch } from 'react-redux'
 import styled from 'styled-components'
@@ -38,19 +41,20 @@ export const NewTask = ({addTask}) => {
     setNewTask(' ')
   }
   return (
-  <>
+  <div>
     {addTask &&
       <form>
         <Input
           type="text"
           placeholder="To do..."
           value={newTask}
-          onChange={event => {setNewTask(event.target.value)}} />
-        <ButtonSubmit type="submit"
+          onChange={event => { setNewTask(event.target.value) }} />
+        <ButtonSubmit
+          type="submit"
           onClick={onSubmit}
           disabled={newTask.length <= 0}> Add task
         </ButtonSubmit>
       </form>}
-    </>
+  </div>
   )
 }

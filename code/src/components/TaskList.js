@@ -8,6 +8,7 @@
 /* eslint-disable max-len */
 /* eslint-disable linebreak-style */
 /* eslint-disable indent */
+/* eslint-disable operator-linebreak */
 import React, { useState } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import styled from 'styled-components';

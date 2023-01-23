@@ -9,6 +9,7 @@
 /* eslint-disable operator-linebreak */
 /* eslint-disable max-len */
 /* eslint-disable indent */
+/* eslint-disable operator-linebreak */
 
 import React from 'react';
 import styled from 'styled-components';
